@@ -66,3 +66,8 @@ console.log(gameCounter);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+let x2 = 3n;
+const y2 = x2++;
+
+console.log(x2,y2)
